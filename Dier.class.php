@@ -24,6 +24,6 @@ abstract class Dier
     function wakker()
     {
         $this->sleeping = false;
-        echo 'Goedenmorgen<br>';
+        echo 'Goedenmorgen!<br>';
     }
 }
