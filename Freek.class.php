@@ -21,7 +21,7 @@ class Freek
                 $this->vogel->eet();
                 break;
             default:
-                echo '<b>Dier.class niet gevonden </b>';
+                echo '<b>Dier niet gevonden </b>';
         }
     }
 
@@ -35,7 +35,7 @@ class Freek
                 $this->vogel->slaap();
                 break;
             default:
-                echo '<b>Dier.class niet gevonden </b>';
+                echo '<b>Dier niet gevonden </b>';
         }
     }
 }

@@ -1,8 +1,10 @@
 <?php
 
 
-class Dier
+abstract class Dier
 {
+    abstract protected function praat();
+
     public function eet()
     {
         if (!$this->sleeping) {
@@ -11,11 +13,6 @@ class Dier
         } else {
             echo "Ik kan niet slapen tijdens het eten.<br>";
         }
-    }
-
-    public function praat()
-    {
-        echo $this->talking . '!<br>';
     }
 
     public function slaap()
